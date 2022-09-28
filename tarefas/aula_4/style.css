@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    height: 8vh;
+
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    width: 20%;
+    height: 90%;
+    border: 1px solid green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu>img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+#title_container{
+    border: 1px solid green;
+}
+
+#title_container > h1{
+    font-size: 20px;  
+}
+
+#title_container > h2{
+    font-size: 16px;  
+}
+
+@media (max-width: 1330px){
+    #links_container{
+        width: 60%;
+    }
+}
+
+@media (max-width: 700px){
+    header{
+        width: 10vw;
+        height: 100vw;
+        flex-direction:column;
+    }
+}
+
+#links{
+    width: 60%;
+    height: 90%;
+    border: 1px solid green;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#links_container{
+
+    width: 40%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 1330px){
+    #links_container{
+        width: 60%;
+    }
+}
+
+#links_container > a{
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+
+#configuracao{
+    width: 20%;
+    height: 90%;
+    border: 1px solid green;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#configuracao > img{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#configuracao >img:nth-child(3){
+    border-radius: 50%;
+}
+
+#banner_section{
+    width: 100vw;
+    height: 25vh;
+    border: 1px solid red;
+
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner{
+    width: 50%;
+    height: 80%;
+    border: 1px solid green;
+    background-image: url(./settings.svg);
+
+    display: flex;
+    align-items:  flex-end;
+    justify-content: space-between;
+    position: relative;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+#banner > div > h1,
+#banner > div > h2{
+    color: #fff;
+}
+
+#banner > button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(250, 153, 8);
+}
+
+main{
+    width: 100vw;
+    height: 67vh;
+    border: 1px solid rgb(3, 248, 187);
+    display: block;
+}
+
+#itens{
+    margin-top: 2%;
+    margin-left: 24%;
+    display: block;
+    justify-content: space-evenly;
+}
+#item1{
+    width: 10vw;
+    height: 10vh;
+    border-radius:5px;
+    border: 1px solid rgb(205, 207, 207);
+
+    align-items:flex-end;
+}
+
+#item1_container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#item1_container > h3{
+    font-size: 14px;
+}
+
+#item2{
+    width: 10vw;
+    height: 14vh;
+    border-radius:5px;
+    border: 1px solid rgb(205, 207, 207);
+}
+
+#item2_container{
+    display: block;
+    justify-content: space-between;
+    
+}
+
+#item2_container > h3{
+    font-size: 14px;
+}
+
+#item2_container > p{
+    font-size: 12px;
+}

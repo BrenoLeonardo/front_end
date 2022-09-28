@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(199, 190, 236);
+    
+}
+
+.inner_header{
+    width: 65%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(146, 231, 49);
+    
+    
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.header img{
+    border-radius: 10px;
+    height: 100%;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+    margin-left: 20px;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display:table-cell;
+    vertical-align: middle;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.nav{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./burrito1.jfif);
+    background-size: 100%;
+    
+    
+}
+.titlulo{
+    float: center;
+    color: yellowgreen;
+    width: 70%;
+    height: 100%;
+    
+}
+
+.titlulo img{
+    border-radius: 50%;
+}
+.main{
+    background-image: url(./burrito2.jfif);
+    background-position-x: 100%;
+    background-position-y: 80%;
+    background-size: 100%;
+    margin-top: 1.5%;
+
+}
+
+.burritos{
+    display: block;
+    justify-content: right;
+    align-items: right;
+}
